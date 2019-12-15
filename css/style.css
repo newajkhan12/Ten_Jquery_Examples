@@ -1,0 +1,60 @@
+#draggable, #draggable2 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+ #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+ #feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+  #selectable li { margin: 3px; padding: 1px; float: left; width: 100px; height: 80px; font-size: 4em; text-align: center; }
+
+
+  #container { width: 300px; height: 300px; }
+  #container h3 { text-align: center; margin: 0; margin-bottom: 10px; }
+  #resizable { background-position: top left; width: 150px; height: 150px; }
+  #resizable, #container { padding: 0.5em; }
+
+
+
+
+   .toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    .ui-effects-transfer { border: 2px dotted gray; }
+
+
+
+
+
+
+    #sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+  }
+  #sortable1 li, #sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+  }
+
+
+
+
+  .custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }

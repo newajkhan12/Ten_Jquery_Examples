@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+
+    <title>Ten Jquery Examples</title>
+
+   <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="css/style.css">
+   <!-- Media Query -->
+    <link rel="stylesheet" href="css/media-queries.css">
+</head>
+<body>
+   
+<!-- First Container Start -->
+<div class="container">
+    <div class="row">
+        <!-- Accordian start -->
+        <div class="col-md-6">
+            <h1 class="text-center bg-warning">1. Accordian</h1>
+        <div id="accordion">
+        <h3>Section 1</h3>
+       <div>
+    <p>
+    Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+    Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+    purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+    velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+    suscipit faucibus urna.
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+    Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+    Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+    ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+    lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+    </div>
+    <!-- Accordian End -->
+
+<!-- Rever Draggable Possition Start -->
+<div class="col-md-6">
+    <div class="row">
+         <h1 class="text-center bg-warning">2. Rever Draggable Possition</h1>
+        <div id="draggable" class="ui-widget-content">
+  <p>I revert when I'm dropped</p>
+</div>
+ 
+<div id="draggable2" class="ui-widget-content">
+  <p>I revert when I'm not dropped</p>
+</div>
+ 
+<div id="droppable" class="ui-widget-header">
+  <p>Drop me here</p>
+</div>
+ 
+ 
+   </div>     
+    </div>
+<!-- Rever Draggable Possition End -->
+    </div> 
+</div>
+<!-- First Container End -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Second Container Start -->
+<div class="container">
+    <div class="row">
+        <!-- Selectable Start -->
+        <div class="col-md-6">
+            <h1 class="text-center bg-warning">3. Selectable</h1>
+            <ol id="selectable">
+  <li class="ui-state-default">1</li>
+  <li class="ui-state-default">2</li>
+  <li class="ui-state-default">3</li>
+  <li class="ui-state-default">4</li>
+  <li class="ui-state-default">5</li>
+  <li class="ui-state-default">6</li>
+  <li class="ui-state-default">7</li>
+  <li class="ui-state-default">8</li>
+  <li class="ui-state-default">9</li>
+  <li class="ui-state-default">10</li>
+  <li class="ui-state-default">11</li>
+  <li class="ui-state-default">12</li>
+</ol>
+        </div>
+        <!-- Selectable End -->
+
+
+         <!-- Date Picker Start -->
+        <div class="col-md-6">
+            <h1 class="text-center bg-warning">4. Date Picker</h1>
+            <p>Date: <input type="text" id="datepicker" size="30"></p>
+ 
+<p>Animations:<br>
+  <select id="anim">
+    <option value="show">Show (default)</option>
+    <option value="slideDown">Slide down</option>
+    <option value="fadeIn">Fade in</option>
+    <option value="blind">Blind (UI Effect)</option>
+    <option value="bounce">Bounce (UI Effect)</option>
+    <option value="clip">Clip (UI Effect)</option>
+    <option value="drop">Drop (UI Effect)</option>
+    <option value="fold">Fold (UI Effect)</option>
+    <option value="slide">Slide (UI Effect)</option>
+    <option value="">None</option>
+  </select>
+</p>
+        </div>
+            <!-- Date Picker End -->
+    </div>
+</div>
+<!-- Second Container End -->
+
+
+
+
+
+<!-- Third Container Start -->
+<div class="container">
+    <div class="row">
+
+<!-- Constrain Resize Area Start -->
+        <div class="col-md-6">
+            <h1 class="text-center bg-warning">5. Constrain Resize Area</h1>
+            <div id="container" class="ui-widget-content">
+  <h3 class="ui-widget-header">Containment</h3>
+  <div id="resizable" class="ui-state-active">
+    <h3 class="ui-widget-header">Resizable</h3>
+  </div>
+</div>
+        </div>
+        <!-- Constrain Resize Area End -->
+
+        <div class="col-md-6">
+             <h1 class="text-center bg-warning">6. Dialog</h1>
+             <div id="dialog" title="Basic dialog">
+  <p>This is an animated dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+<button id="opener">Open Dialog</button>
+
+        </div>
+    </div>
+</div>
+<!-- Third Container End -->
+
+
+<!-- Fourth Container Start -->
+<div class="container">
+    <div class="row">
+        <!-- Autocomplete Start -->
+        <div class="col-md-6">
+            <h1 class="text-center bg-warning">7. Auto Complete</h1>
+            <div class="ui-widget">
+  <label for="tags">Tags: </label>
+  <input id="tags">
+</div>   
+        </div>
+        <!-- Autocomplete End -->
+
+<!-- Add Class Effects Start -->
+<div class="col-md-6">
+     <h1 class="text-center bg-warning">8. Add Class Effects</h1>
+    <div class="toggler">
+  <div id="effect" class="ui-widget-content ui-corner-all">
+    <h3 class="ui-widget-header ui-corner-all">Effect</h3>
+    <p>
+      Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+    </p>
+  </div>
+</div>
+ 
+<select name="effects" id="effectTypes">
+  <option value="blind">Blind</option>
+  <option value="bounce">Bounce</option>
+  <option value="clip">Clip</option>
+  <option value="drop">Drop</option>
+  <option value="explode">Explode</option>
+  <option value="fade">Fade</option>
+  <option value="fold">Fold</option>
+  <option value="highlight">Highlight</option>
+  <option value="puff">Puff</option>
+  <option value="pulsate">Pulsate</option>
+  <option value="scale">Scale</option>
+  <option value="shake">Shake</option>
+  <option value="size">Size</option>
+  <option value="slide">Slide</option>
+  <option value="transfer">Transfer</option>
+</select>
+ 
+<button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+ 
+</div>
+<!-- Add Class Effects Start -->
+
+    </div>
+</div>
+<!-- Fourth Container Start -->
+
+
+
+
+
+<!-- Fifth Container Start -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1 class="text-center bg-warning">9. Soratable</h1>
+            <ul id="sortable1" class="connectedSortable">
+  <li class="ui-state-default">Item 1</li>
+  <li class="ui-state-default">Item 2</li>
+  <li class="ui-state-default">Item 3</li>
+  <li class="ui-state-default">Item 4</li>
+  <li class="ui-state-default">Item 5</li>
+</ul>
+ 
+<ul id="sortable2" class="connectedSortable">
+  <li class="ui-state-highlight">Item 1</li>
+  <li class="ui-state-highlight">Item 2</li>
+  <li class="ui-state-highlight">Item 3</li>
+  <li class="ui-state-highlight">Item 4</li>
+  <li class="ui-state-highlight">Item 5</li>
+</ul>
+        </div>
+
+
+
+
+ <div class="col-md-6">
+<h1 class="text-center bg-warning">10. Widget Factory</h1>
+<div>
+  <div id="my-widget1">color me</div>
+  <div id="my-widget2">color me</div>
+  <div id="my-widget3">color me</div>
+  <button id="disable">Toggle disabled option</button>
+  <button id="green">Go green</button>
+</div>
+ 
+    </div>
+
+
+
+
+    </div>
+
+
+   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+s
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/script.js"></script>
+   <script>
+  $( function() {
+    // accordian
+    $( "#accordion" ).accordion({
+         collapsible: true
+    });
+
+// draggable
+    $( "#draggable" ).draggable({ revert: "valid" });
+    $( "#draggable2" ).draggable({ revert: "invalid" });
+ 
+    $( "#droppable" ).droppable({
+      classes: {
+        "ui-droppable-active": "ui-state-active",
+        "ui-droppable-hover": "ui-state-hover"
+      },
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Dropped!" );
+      }
+    });
+
+// Selectable
+ $( "#selectable" ).selectable();
+
+ // Datepicker
+ $( "#datepicker" ).datepicker();
+    $( "#anim" ).on( "change", function() {
+      $( "#datepicker" ).datepicker( "option", "showAnim", $( this ).val() );
+    });
+
+// Contrain Resize Area
+$( "#resizable" ).resizable({
+      containment: "#container"
+    });
+
+// dialogue
+$( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+    $( "#opener" ).on( "click", function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+
+    // autocomplete
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
+    });
+
+
+    // Effect
+    // run the currently selected effect
+    function runEffect() {
+      // get effect type from
+      var selectedEffect = $( "#effectTypes" ).val();
+ 
+      // Most effect types need no options passed by default
+      var options = {};
+      // some effects have required parameters
+      if ( selectedEffect === "scale" ) {
+        options = { percent: 50 };
+      } else if ( selectedEffect === "transfer" ) {
+        options = { to: "#button", className: "ui-effects-transfer" };
+      } else if ( selectedEffect === "size" ) {
+        options = { to: { width: 200, height: 60 } };
+      }
+ 
+      // Run the effect
+      $( "#effect" ).effect( selectedEffect, options, 500, callback );
+    };
+ 
+    // Callback function to bring a hidden box back
+    function callback() {
+      setTimeout(function() {
+        $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
+      }, 1000 );
+    };
+ 
+    // Set effect from select menu value
+    $( "#button" ).on( "click", function() {
+      runEffect();
+      return false;
+    });
+
+// Sortable
+$( "#sortable1, #sortable2" ).sortable({
+      connectWith: ".connectedSortable"
+    }).disableSelection();
+
+   // Widget Factory
+   // the widget definition, where "custom" is the namespace,
+    // "colorize" the widget name
+    $.widget( "custom.colorize", {
+      // default options
+      options: {
+        red: 255,
+        green: 0,
+        blue: 0,
+ 
+        // Callbacks
+        change: null,
+        random: null
+      },
+ 
+      // The constructor
+      _create: function() {
+        this.element
+          // add a class for theming
+          .addClass( "custom-colorize" );
+ 
+        this.changer = $( "<button>", {
+          text: "change",
+          "class": "custom-colorize-changer"
+        })
+        .appendTo( this.element )
+        .button();
+ 
+        // Bind click events on the changer button to the random method
+        this._on( this.changer, {
+          // _on won't call random when widget is disabled
+          click: "random"
+        });
+        this._refresh();
+      },
+ 
+      // Called when created, and later when changing options
+      _refresh: function() {
+        this.element.css( "background-color", "rgb(" +
+          this.options.red +"," +
+          this.options.green + "," +
+          this.options.blue + ")"
+        );
+ 
+        // Trigger a callback/event
+        this._trigger( "change" );
+      },
+ 
+      // A public method to change the color to a random value
+      // can be called directly via .colorize( "random" )
+      random: function( event ) {
+        var colors = {
+          red: Math.floor( Math.random() * 256 ),
+          green: Math.floor( Math.random() * 256 ),
+          blue: Math.floor( Math.random() * 256 )
+        };
+ 
+        // Trigger an event, check if it's canceled
+        if ( this._trigger( "random", event, colors ) !== false ) {
+          this.option( colors );
+        }
+      },
+ 
+      // Events bound via _on are removed automatically
+      // revert other modifications here
+      _destroy: function() {
+        // remove generated elements
+        this.changer.remove();
+ 
+        this.element
+          .removeClass( "custom-colorize" )
+          .enableSelection()
+          .css( "background-color", "transparent" );
+      },
+ 
+      // _setOptions is called with a hash of all options that are changing
+      // always refresh when changing options
+      _setOptions: function() {
+        // _super and _superApply handle keeping the right this-context
+        this._superApply( arguments );
+        this._refresh();
+      },
+ 
+      // _setOption is called for each individual option that is changing
+      _setOption: function( key, value ) {
+        // prevent invalid color values
+        if ( /red|green|blue/.test(key) && (value < 0 || value > 255) ) {
+          return;
+        }
+        this._super( key, value );
+      }
+    });
+ 
+    // Initialize with default options
+    $( "#my-widget1" ).colorize();
+ 
+    // Initialize with two customized options
+    $( "#my-widget2" ).colorize({
+      red: 60,
+      blue: 60
+    });
+ 
+    // Initialize with custom green value
+    // and a random callback to allow only colors with enough green
+    $( "#my-widget3" ).colorize( {
+      green: 128,
+      random: function( event, ui ) {
+        return ui.green > 128;
+      }
+    });
+ 
+    // Click to toggle enabled/disabled
+    $( "#disable" ).on( "click", function() {
+      // use the custom selector created for each widget to find all instances
+      // all instances are toggled together, so we can check the state from the first
+      if ( $( ":custom-colorize" ).colorize( "option", "disabled" ) ) {
+        $( ":custom-colorize" ).colorize( "enable" );
+      } else {
+        $( ":custom-colorize" ).colorize( "disable" );
+      }
+    });
+ 
+    // Click to set options after initialization
+    $( "#green" ).on( "click", function() {
+      $( ":custom-colorize" ).colorize( "option", {
+        red: 64,
+        green: 250,
+        blue: 8
+      });
+    });
+
+  } );
+  </script>
+ 
+
+
+
+</body>
+</html>
